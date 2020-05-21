@@ -20,7 +20,7 @@ def ordinary_matrix():
                 for col in range(i):
                     line += str(random.randint(rng[0], rng[1])) + " "
                 line += "\n"
-    open("ordinary.txt", "w", encoding="UTF-8").write(line)
+    open("input_data/ordinary.txt", "w", encoding="UTF-8").write(line)
 
 
 def lower_and_upper_triangular_matrix():
@@ -40,8 +40,8 @@ def lower_and_upper_triangular_matrix():
                     line_upper += str(random.randint(rng[0], rng[1])) + " "
                 line_lower += "\n"
                 line_upper += "\n"
-    open("lower_triangular.txt", "w", encoding="UTF-8").write(line_lower)
-    open("upper_triangular.txt", "w", encoding="UTF-8").write(line_upper)
+    open("input_data/lower_triangular.txt", "w", encoding="UTF-8").write(line_lower)
+    open("input_data/upper_triangular.txt", "w", encoding="UTF-8").write(line_upper)
 
 
 def diagonal_and_graph_matrix():
@@ -63,8 +63,8 @@ def diagonal_and_graph_matrix():
                     line_graph += str(random.randint(rng[0], rng[1])) + " "
                 line_diagonal += "\n"
                 line_graph += "\n"
-    open("diagonal.txt", "w", encoding="UTF-8").write(line_diagonal)
-    open("graph.txt", "w", encoding="UTF-8").write(line_graph)
+    open("input_data/diagonal.txt", "w", encoding="UTF-8").write(line_diagonal)
+    open("input_data/graph.txt", "w", encoding="UTF-8").write(line_graph)
 
 
 def non_and_symmetric_matrix():
@@ -91,8 +91,8 @@ def non_and_symmetric_matrix():
                 for num in range(0, len(ln) - 1):
                     line_non_sym += str(ln[num]) + " "
                 line_non_sym += str(ln[-1]) + "\n"
-    open("symmetric.txt", "w", encoding="UTF-8").write(line_sym)
-    open("non_symmetric.txt", "w", encoding="UTF-8").write(line_non_sym)
+    open("input_data/symmetric.txt", "w", encoding="UTF-8").write(line_sym)
+    open("input_data/non_symmetric.txt", "w", encoding="UTF-8").write(line_non_sym)
 
 
 def sparsity_matrix():
@@ -114,7 +114,7 @@ def sparsity_matrix():
                     else:
                         line += "0 "
                 line += "\n"
-    open("sparsity.txt", "w", encoding="UTF-8").write(line)
+    open("input_data/sparsity.txt", "w", encoding="UTF-8").write(line)
 
 
 def symmetric_positive_definite():
@@ -128,7 +128,7 @@ def symmetric_positive_definite():
                 for el in row:
                     line += str(int(el)) + " "
                 line += "\n"
-    open("symm_pos_def.txt", "w", encoding="UTF-8").write(line)
+    open("input_data/symm_pos_def.txt", "w", encoding="UTF-8").write(line)
 
 
 ordinary_matrix()
