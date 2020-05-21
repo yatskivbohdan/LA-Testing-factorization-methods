@@ -1,0 +1,9 @@
+{'ordinary': {'qr': 0.3336, 'lu': 0.0774, 'svd': 0.3795},
+'lower_triangular': {'qr': 0.284, 'lu': 0.0795, 'svd': 0.4478},
+'upper_triangular': {'qr': 0.1466, 'lu': 0.095, 'svd': 0.4456},
+'diagonal': {'qr': 0.1149, 'lu': 0.0659, 'svd': 0.4798},
+'graph': {'qr': 0.3315, 'lu': 0.0717, 'svd': 0.4438},
+'symmetric': {'qr': 0.147, 'lu': 0.0954, 'svd': 0.5579},
+'non_symmetric': {'qr': 0.2437, 'lu': 0.0731, 'svd': 0.5149},
+'sparsity': {'qr': 0.1665, 'lu': 0.0781, 'svd': 0.7098},
+'symmetric_positive_definite': {'qr': 0.2327, 'lu': 0.0819, 'svd': 0.7793, 'cho': 0.0685}}
